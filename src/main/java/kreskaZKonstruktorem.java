@@ -3,12 +3,12 @@ public class kreskaZKonstruktorem {
     double szerokosc;
     int glebokosc;
 
-    public kreskaZKonstruktorem(int a, double b, int c){
-        dlugosc = a;
-        szerokosc = b;
-        glebokosc = c;
-
+    public kreskaZKonstruktorem(int dlugosc, double szerokosc, int glebokosc) {
+        this.dlugosc = dlugosc;
+        this.szerokosc = szerokosc;
+        this.glebokosc = glebokosc;
     }
+
 
     public kreskaZKonstruktorem(kreskaZKonstruktorem kres2){
         dlugosc = kres2.dlugosc;
