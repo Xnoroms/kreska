@@ -11,9 +11,9 @@ public class kreskaZKonstruktorem {
 
 
     public kreskaZKonstruktorem(kreskaZKonstruktorem kres2){
-        dlugosc = kres2.dlugosc;
-        szerokosc = kres2.szerokosc;
-        glebokosc = kres2.glebokosc;
+        this.dlugosc = kres2.dlugosc;
+        this.szerokosc = kres2.szerokosc;
+        this.glebokosc = kres2.glebokosc;
     }
 
 
